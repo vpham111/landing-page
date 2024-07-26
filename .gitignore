@@ -1,0 +1,16 @@
+# Logs
+logs/
+*.log
+
+# Dependency directories
+node_modules/
+
+# Build output
+/dist/
+
+# Environment variables
+.env
+
+# Ignore all files in the config folder except for example-config.js
+config/*
+!config/example-config.js
