@@ -1,4 +1,4 @@
-const express = require("express");
+/*const express = require("express");
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 
@@ -52,4 +52,4 @@ app.post("/send-email", (req, res) => {
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
-});
+});*/
