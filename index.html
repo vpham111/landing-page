@@ -224,7 +224,7 @@
             dolor.
           </p>
 
-          <form method="post" action="/api/send-email">
+          <form id="contactForm" method="post" action="/api/send-email">
             <div class="row">
               <div class="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
@@ -240,6 +240,7 @@
               </div>
             </div>
           </form>
+          <div id="formMessage"></div>
         </div>
       </section>
     </div>
@@ -261,5 +262,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="form-handler.js"></script>
   </body>
 </html>
